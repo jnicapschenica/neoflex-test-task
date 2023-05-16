@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="rus">
+
+@@include('html/head.html',{
+"title": "Корзина"
+})
+
+<body>
+    <div class="wrapper">
+        @@include('html/header.html', {})
+        <main class="main">
+            <div class="main__container">
+                <h1 class="title-cart">Корзина</h1>
+                <section class="cart">
+                    <div class="cart__list">
+                        <article class="cart__item item-cart">
+                            <div class="item-cart__main">
+                                <div class="item-cart__img">
+                                    <img src="@img/apple-airpods.png" alt="">
+                                </div>
+                                <div class="item-cart__body">
+                                    <div class="item-cart__title">apple airpods</div>
+                                    <div class="item-cart__price">453 &#8381</div>
+                                </div>
+                                <button class="item-cart__delete icon-delete"></button>
+                            </div>
+                            <div class="item-cart__bottom">
+                                <div class="item-cart__counter counter">
+                                    <button class="counter__button_minus">-</button>
+                                    <span>2</span>
+                                    <button class="counter__button_plus">+</button>
+                                </div>
+                                <span class="item-cart__price_final">34543 &#8381</span>
+                            </div>
+                        </article>
+
+                    </div>
+
+                    <div class="cart__buy buy">
+                        <div class="buy__body">
+                            <div class="buy__main">
+                                <span>ИТОГО</span>
+                                <span class="buy__price">&#8381 8374</span>
+                            </div>
+                            <div class="buy__button">Перейти к оформлению</div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        @@include('html/footer.html', {})
+        <script src="js/app.min.js"></script>
+    </div>
+</body>
+
+</html>

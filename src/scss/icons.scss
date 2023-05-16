@@ -1,0 +1,58 @@
+@font-face {
+	font-family: "icons";
+	font-display: swap;
+	src: url("../iconsfont/icons.eot");
+	src: local("0"), url("../iconsfont/icons.ttf") format("truetype"), 
+		url("../iconsfont/icons.woff") format("woff"),
+		url("../iconsfont/icons.svg") format("svg");
+}
+
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class*="icon-"] {
+	&::before {
+		@extend %ic;
+		display: block;
+	}
+}
+
+.icon-delete:before {
+	content: "\e900";
+}
+
+.icon-whatsapp:before {
+	content: "\e901";
+}
+
+.icon-telegram:before {
+	content: "\e902";
+}
+
+.icon-vk:before {
+	content: "\e903";
+}
+
+.icon-lang:before {
+	content: "\e904";
+}
+
+.icon-star:before {
+	content: "\e905";
+}
+
+.icon-cart:before {
+	content: "\e906";
+}
+
+.icon-favorite:before {
+	content: "\e907";
+}

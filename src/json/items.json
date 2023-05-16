@@ -1,0 +1,85 @@
+{
+    "headphones": [
+        {
+            "id": 1,
+            "img": "img/apple-byz-s8521.png",
+            "title": "Apple BYZ S852I",
+            "type": "wired",
+            "price": 2927,
+            "price-old": 3527,
+            "rating": 4.7
+        },
+        {
+            "id": 2,
+            "img": "img/apple-earpods.png",
+            "title": "Apple EarPods",
+            "type": "wired",
+            "price": 2327,
+            "price-old": "",
+            "rating": 4.5
+        },
+        {
+            "id": 3,
+            "img": "img/apple-earpods-box.png",
+            "title": "Apple EarPods",
+            "type": "wired",
+            "price": 2327,
+            "price-old": "",
+            "rating": 4.5
+        },
+        {
+            "id": 4,
+            "img": "img/apple-byz-s8521.png",
+            "title": "Apple BYZ S852I",
+            "type": "wired",
+            "price": 2927,
+            "price-old": "",
+            "rating": 4.7
+        },
+        {
+            "id": 5,
+            "img": "img/apple-earpods.png",
+            "title": "Apple EarPods",
+            "type": "wired",
+            "price": 2327,
+            "price-old": "",
+            "rating": 4.7
+        },
+        {
+            "id": 6,
+            "img": "img/apple-earpods-box.png",
+            "title": "Apple EarPods",
+            "type": "wired",
+            "price": 2327,
+            "price-old": "",
+            "rating": 4.7
+        },
+        {
+            "id": 7,
+            "img": "img/apple-airpods.png",
+            "title": "Apple AirPods",
+            "type": "wireless",
+            "price": 9527,
+            "price-old": "",
+            "rating": 4.7
+        },
+        {
+            "id": 8,
+            "img": "img/gerlax-gh-04.png",
+            "title": "GERLAX GH-04",
+            "type": "wireless",
+            "price": 6527,
+            "price-old": "",
+            "rating": 4.7
+        },
+        {
+            "id": 9,
+            "img": "img/borofone-b04.png",
+            "title": "BOROFONE BO4",
+            "type": "wireless",
+            "price": 7527,
+            "price-old": "",
+            "rating": 4.7
+        }
+    ]
+}
