@@ -25,7 +25,7 @@ function loadItems(data) {
         const itemRating = item.rating;
 
         let template = `
-                    <article class="items__item item">
+                    <article data-pid="${itemId}" class="items__item item">
                         <div class="item__img">
                             <img src="${itemImg}" alt="${itemTitle}">
                         </div>
@@ -36,9 +36,9 @@ function loadItems(data) {
                             </div>
                             <div class="item__column item__column_right">
                                 <div class="item__prices">
-                                    <span class="item__price">${itemPrice} &#8381;</span>`
+                                    <span class="item__price">${itemPrice.toLocaleString('ru')+" &#8381;"}</span>`
         if (itemPriceOld) {
-            template += `           <span class="item__price item__price_old">${itemPriceOld} &#8381;</span>`;
+            template += `           <span class="item__price item__price_old">${itemPriceOld.toLocaleString('ru')+" &#8381;"}</span>`;
         }
         template += `           </div>
                                 <button class="button">Купить</button>
@@ -46,7 +46,7 @@ function loadItems(data) {
                         </div>
                     </article>`
 
-        if (itemType === "wired") {
+        if (itemType === 'wired') {
             wired.insertAdjacentHTML('beforeend', template);
         } else {
             wireless.insertAdjacentHTML('beforeend', template);

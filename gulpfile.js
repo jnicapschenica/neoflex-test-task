@@ -33,7 +33,7 @@ function watcher() {
 const mainTasks = gulp.parallel(copy, html, scss, js, json, images, iconsfont, favicon);
 
 const dev = gulp.series(reset, mainTasks, gulp.parallel(watcher, server));
-const build = gulp.series(reset, mainTasks);
+const build = gulp.series(reset, mainTasks, server);
 
 export { dev };
 export { build };
