@@ -4,6 +4,8 @@
 * JavaScript
 * HTML
 * SCSS
+* Gulp
+* LocalStorage used
 
 ### How to install
 use **git clone https://github.com/jnicapschenica/neoflex-test-task.git**
@@ -17,4 +19,4 @@ Zhbankova Maria
 
 e-mail: batonsja@gmail.com
 
-demo:
+demo: https://drive.google.com/file/d/1MXrIsnifrT78TrWPZSm0XZY8jhZ8_-r7/view?usp=sharing

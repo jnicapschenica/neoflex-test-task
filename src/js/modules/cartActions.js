@@ -31,7 +31,7 @@ window.onload = function () {
     function addToCart(itemId) {
         const item = document.querySelector(`[data-pid="${itemId}"]`);
         const itemTitle = item.querySelector('.item__title').innerHTML;
-        const itemPrice = item.querySelector('.item__price').innerHTML;
+        const itemPrice = item.querySelector('.item__price').innerHTML.replace(/\D/g, "");
         const itemImg = item.querySelector('img').src.replace('http://localhost:3000/', '');
         let quantity = 0;
 

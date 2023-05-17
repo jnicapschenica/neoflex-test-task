@@ -37,7 +37,7 @@ body {
     &__links {
         display: flex;
         justify-content: space-around;
-        width: 100px;
+        width: 120px;
     }
 }
 
@@ -163,6 +163,10 @@ body {
 
 .button {
     color: #000;
+    &:hover {
+        color: #ffa542;
+        transition: color 300ms ease 0s;
+    }
 }
 
 .footer {
@@ -220,6 +224,7 @@ body {
     font-size: 30px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     color: #101010;
     min-width: 126px;
 }
